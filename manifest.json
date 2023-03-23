@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Color Picker",
+    "description": "Add colors in hex format to Chrome Extension",
+    "icons": {
+        "16": "images/color-palette16.png",
+        "32": "images/color-palette32.png",
+        "64": "images/color-palette64.png",
+        "128": "images/color-palette128.png"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
