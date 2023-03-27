@@ -3,29 +3,20 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./popup.css" />
+        <link rel="stylesheet" href="popup.css" />
     </head>
     <body>
         <div class="title">
             <h1>Color Picker</h1>
         </div>
         <hr>
-        <ul>
-            <li>
-                <div class="color-info">
-                    <span class="color-preview"></span>
-                    <p>#FFFFFF</p>
-                </div>
-                <div class="buttons">
-                    <button class="btn">
-                        <img src="./images/copy.png" alt="Copy text button" width="20" height="20" />
-                    </button>
-                    <button class="btn">
-                        <img src="./images/bin.png" alt="Delete button" width="20" height="20" />
-                    </button>
-                </div>
-                
-            </li>
+        <ul id="ul-element">
         </ul>
+        <div class="footer">
+            <button id="open-eyeDropper">Pick Color</button>
+            <span id="msg"></span>
+        </div>
+
+        <script src="popup.js"></script>
     </body>
 </html>
